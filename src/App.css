@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.mainContainer {
+  padding: 1rem;
+}
+
+.navbarBrand {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbarBrand:hover {
+  color: #fff;
+}
+
+.menu-link {
+  color: #fff;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.shoppingCartBadge {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  font-size: 13px;
+}
+
+.cardBook {
+  width: 18rem;
+  margin-bottom: 2rem;
+}
+
+.cardShopping {
+  display: flex !important;
+  margin-bottom: 1rem;
+}
+
+.cardShopping .cardDetail {
+  margin-left: 1rem;
+}
+
+.cardShopping .cardPrice {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cardShopping .cardControl {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.totalCart {
+  display: flex !important;
+  font-size: 1.5rem;
+}
+
